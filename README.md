@@ -3,31 +3,30 @@ GAppADD
 
 ## What is it?
 
-This is a program that I wrote to make my life easier when adding AD users to the server of a client that my company services. EHTP HR used to send an Excel sheet of the new users and details on how to create them, in turn having me manually open the files and do a batch of 20+ users by hand. In order to remedy this I made it easier for them by making a Google Docs questionaire sheet that linked in to a spreadsheet which this program would connect to and make users on the server. 
+This is a program that I wrote to make my life easier when adding AD users to the server of a client that my company services. EHTP HR used to send an Excel sheet of the new users and details on how to create them, in turn having me manually open the files and do a batch of 20+ users by hand. In order to remedy this I made it easier for them by making a Google Docs questionaire sheet that linked in to a spreadsheet.
+
+This program connects to the Google Apps account and displays all spreadsheets, then fetches data from the Google servers and connects to the AD server via SSH private key auth. This also eliminates the need for you to manually use LMI to connect and have everything be done by hand. 
+
 ## Cool! How do I use it?
 
 ### Requirements
 
 You'll need:
 
-* [The Eclipse IDE](http://eclipse.org/)
-* [WPILibJ for Eclipse:](http://first.wpi.edu/FRC/java/eclipse/update/) Add this as a software source and then install the FRC packages.
+* .NET 4.0+
+* GData for C#: https://developers.google.com/gdata/client-cs
+* Visual Studio
 * Git
 
-### How-to
+### Please note, some thoughts (and an optimistic to-do list)
 
-1. Open your favorite shell (this works on Windows too) and do:
-```
-git clone git@github.com:mach-kernel/334-2013.git
-```
-2. Import the project into Eclipse.
-3. Fix your build path (this is most likely broken if your eclipse directory is not C:\eclipse\ or if you're not using Windows).
-4. Set your team number within the FRC preferences
-5. ???
-6. Profit!
+1. Import all the libraries if imports are broken and compile.
+2. Column definitions are hardcoded since I only used this for one client, however, this should fit the needs of most, if not all users. 
+3. Make a Google Docs/Drive questionnaire form and tie it to a spreadsheet, then open it up in the software. 
+4. Add some sort of header in the sheet so that the program could verify that it's for this purpose or make some sort of filtering in the filename list (I knew what I needed and didn't care).
 
 ## This is sweet! Can I use it?
 
-Of course! You are allowed to modify and redistribute this code as long as you give credit to 334 (use a modified version of our header!) and acknowledge WPILibJ's BSD license (included in build). We hope you learn from this and share it. Knowledge is power. Also, no commercial usage, please!
+Of course! You are allowed to modify and redistribute this code as long as you use it fairly. I hope you learn from this and share it. Knowledge is power. Also, no commercial usage, please!
 
 This software is bound by the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
