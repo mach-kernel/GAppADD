@@ -1,0 +1,9 @@
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\bin\Release\EHTPAutoUser.exe
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\bin\Release\EHTPAutoUser.pdb
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\bin\Release\Newtonsoft.Json.dll
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\obj\x86\Release\CMITAutoUser.Properties.Resources.resources
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\obj\x86\Release\EHTPAutoUser.exe
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\obj\x86\Release\EHTPAutoUser.pdb
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\obj\x86\Release\CMITAutoUser.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\obj\x86\Release\CMITAutoUser.csproj.GenerateResource.Cache
+C:\Users\David\Desktop\CMIT\EHTPAutoUser\EHTPAutoUser\obj\x86\Release\GAppADDAutoUser.MainWindow.resources
