@@ -7,6 +7,10 @@ This is a program that I wrote to make my life easier when adding AD users to th
 
 This program connects to the Google Apps account and displays all spreadsheets, then fetches data from the Google servers and connects to the AD server via SSH private key auth. This also eliminates the need for you to manually use LMI to connect and have everything be done by hand. 
 
+## Is it secure?
+
+You betcha! The software requires you to log in to your Google Apps account and have the spreadsheet provisioned to the account you're using. In order to connect to the server and run, you need an AD account on the server and private keysets. If an invalid key is used there is no other way around and into the server unless a vulnerability in the SSH daemon running on the server itself is exploited. 
+
 ## Cool! How do I use it?
 
 ### Requirements
